@@ -1,0 +1,8 @@
+
+# Team and configuration owners
+peribolos.yaml       @afflom @jpower432 @sabre1041 @usrbinkat @sbtaylor15 @bradmccoydev @codeWithUtkarsh thelinuxfoundation
+
+# organizational docs owners
+profile/* @emporous/docs-maintainers
+governance/* @emporous/docs-maintainers
+*.md @emporous/docs-maintainers
