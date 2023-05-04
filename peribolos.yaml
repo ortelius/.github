@@ -1,149 +1,208 @@
+---
 orgs:
   ortelius:
     admins:
-      - afflom
-      - bradmccoydev
-      - codeWithUtkarsh
-      - jpower432
-      - sabre1041
-      - sbtaylor15
-      - thelinuxfoundation
-      - usrbinkat
+    - afflom
+    - bradmccoydev
+    - codeWithUtkarsh
+    - jpower432
+    - sabre1041
+    - sbtaylor15
+    - thelinuxfoundation
+    - usrbinkat
     billing_email: steve@deployhub.com
-    company: ""
+    company: ''
     default_repository_permission: read
-    description: An open source toolkit to manage different types of content in a single, unified system.
+    description: An open source toolkit to manage different types of content in a
+      single, unified system.
     email: ortelius-dev@googlegroups.com
     has_organization_projects: true
     has_repository_projects: true
-    location: ""
+    location: ''
     members:
-      - adrezni
-      - agardnerIT
-      - ankurkumarz
-      - Arvind644
-      - ayesha-kr
-      - BBimie
-      - chicks-net
-      - christianh814
-      - d10n
-      - day0hero
-      - devops-novice
-      - divya-mohan0209
-      - galemccommons
-      - GeniusLearner
-      - hamidgholami
-      - hdhruna
-      - itisaby
-      - jayesh-srivastava
-      - jessegonzalez
-      - jgarverick
-      - jiakalita
-      - josephakayesi
-      - karamjotsingh
-      - markyjackson-taulia
-      - munnyraht
-      - obowersa
-      - oleg-nenashev
-      - peRFectBeliever
-      - Rubix982
-      - sachajw
-      - sanjeepan23
-      - saxenaaman628
-      - sfxworks
-      - TracyRagan
-      - wmdev0808
-      - zacharyljones
+    - adrezni
+    - agardnerIT
+    - ankurkumarz
+    - Arvind644
+    - ayesha-kr
+    - BBimie
+    - chicks-net
+    - christianh814
+    - d10n
+    - day0hero
+    - devops-novice
+    - divya-mohan0209
+    - galemccommons
+    - GeniusLearner
+    - hamidgholami
+    - hdhruna
+    - itisaby
+    - jayesh-srivastava
+    - jessegonzalez
+    - jgarverick
+    - jiakalita
+    - josephakayesi
+    - karamjotsingh
+    - markyjackson-taulia
+    - munnyraht
+    - obowersa
+    - oleg-nenashev
+    - peRFectBeliever
+    - Rubix982
+    - sachajw
+    - sanjeepan23
+    - saxenaaman628
+    - sfxworks
+    - TracyRagan
+    - wmdev0808
+    - zacharyljones
     members_can_create_repositories: true
     name: Ortelius
     repos:
-      .github:
+      ".github":
         default_branch: main
         description: Ortelius
+        has_projects: true
+      arango-poc:
+        default_branch: main
+        description: Ortelius Argango POC
+        has_projects: true
+      azure-infra:
+        default_branch: main
+        description: Ortelius Terraform for Azure
+        has_projects: true
+      backstage:
+        default_branch: main
+        description: Ortelius Backstage Setup
         has_projects: true
       cncf-distribution:
         default_branch: main
         description: The toolkit to pack, ship, store, and deliver content.
         has_projects: true
+      collection-spec:
+        default_branch: main
+        description: Emporous Collection Format
+        has_projects: true
+      community:
+        default_branch: main
+        description: Emporous Community
+        has_projects: true
+        homepage: https://emporous.io/community
+        private: false
+      dev-env-setup:
+        default_branch: main
+        description: Ortelius Dev Environment Resources
+        has_projects: true
       distribution-spec:
         default_branch: main
         description: OCI Distribution Specification
-        has_projects: true
-      examples:
-        default_branch: main
-        description: Emporous example use-cases and demos
-        has_projects: true
-      organization:
-        default_branch: main
-        description: Organizational Maintenance
-        has_projects: true
-        private: true
-      samples:
-        default_branch: main
-        description: This repo contains reference implementations of sample content to demonstrate Emporous core functionality
         has_projects: true
       emporous-go:
         default_branch: main
         description: Emporous client libraries and CLI implementation
         has_projects: true
         homepage: https://emporous.io/
-      community:
-        default_branch: main
-        description: Emporous Community
-        homepage: https://emporous.io/community
-        has_projects: true
-        private: false
       emporous.io:
         default_branch: main
         description: Emporous Website
         has_projects: true
-      collection-spec:
+      examples:
         default_branch: main
-        description: Emporous Collection Format
+        description: Emporous example use-cases and demos
         has_projects: true
-      universalreference.io-redirect:
+      keptn-config:
         default_branch: main
-        description: Temporary redirect from universalreference.io to emporous.io
+        description: Ortelius Keptn Setup
         has_projects: true
-      ortelius-charts:
+      keptn-ortelius-service:
         default_branch: main
-        description: Ortelius Parent Helm Charts
+        description: Ortelius Keptn Service
         has_projects: true
-      ms-validate-user:
+      la-sbom-ledger:
         default_branch: main
-        description: Ortelius Validate User Microservice
-        has_projects: true
-      ms-textfile-crud:
-        default_branch: main
-        description: Ortelius Text File Microservice
-        has_projects: true
-      ms-dep-pkg-cud:
-        default_branch: main
-        description: Ortelius SBOM Create/Update/Delete Microservice
-        has_projects: true
-      ortelius:
-        default_branch: main
-        description: Ortelius Monolith UI/Backend
-        has_projects: true
-      ms-dep-pkg-r:
-        default_branch: main
-        description: Ortelius SBOM Read Microservice
-        has_projects: true
-      ms-scorecard:
-        default_branch: main
-        description: Ortelius Scorecard Microservice
+        description: Ortelius XRPL Grant
         has_projects: true
       ms-compitem-crud:
         default_branch: main
         description: Ortelius Component Details Microservice
         has_projects: true
-      scec-commons:
+      ms-dep-pkg-cud:
         default_branch: main
-        description: Ortelius v11 Common Code
+        description: Ortelius SBOM Create/Update/Delete Microservice
+        has_projects: true
+      ms-dep-pkg-r:
+        default_branch: main
+        description: Ortelius SBOM Read Microservice
+        has_projects: true
+      ms-postgres:
+        default_branch: main
+        description: Ortelius Postgres Microservice
+        has_projects: true
+      ms-scorecard:
+        default_branch: main
+        description: Ortelius Scorecard Microservice
+        has_projects: true
+      ms-textfile-crud:
+        default_branch: main
+        description: Ortelius Text File Microservice
+        has_projects: true
+      ms-validate-user:
+        default_branch: main
+        description: Ortelius Validate User Microservice
+        has_projects: true
+      organization:
+        default_branch: main
+        description: Organizational Maintenance
+        has_projects: true
+        private: true
+      ortelius:
+        default_branch: main
+        description: Ortelius Monolith UI/Backend
+        has_projects: true
+      ortelius-charts:
+        default_branch: main
+        description: Ortelius Parent Helm Charts
+        has_projects: true
+      ortelius-cli:
+        default_branch: main
+        description: Ortelius CLI for CI/CD Pipeline
+        has_projects: true
+      ortelius-docs:
+        default_branch: main
+        description: Ortelius Documentation
+        has_projects: true
+      ortelius-kubernetes:
+        default_branch: main
+        description: Ortelius Kustomize/Argo Deployments
+        has_projects: true
+      ortelius-test-database:
+        default_branch: main
+        description: Ortelius Test Data
+        has_projects: true
+      ortelius-toc:
+        default_branch: main
+        description: Ortelius TOC Governance
+        has_projects: true
+      ortelius.io:
+        default_branch: main
+        description: Ortelius Website
+        has_projects: true
+      outreach:
+        default_branch: main
+        description: Ortelius Outreach
+        has_projects: true
+      samples:
+        default_branch: main
+        description: This repo contains reference implementations of sample content
+          to demonstrate Emporous core functionality
         has_projects: true
       scec-appver:
         default_branch: main
         description: Ortelius Application Version Microservice
+        has_projects: true
+      scec-commons:
+        default_branch: main
+        description: Ortelius v11 Common Code
         has_projects: true
       scec-comp-tag:
         default_branch: main
@@ -153,10 +212,6 @@ orgs:
         default_branch: main
         description: Ortelius Component Version Microservice
         has_projects: true
-      scec-vulnerability:
-        default_branch: main
-        description: Ortelius Vulnerability Microservice
-        has_projects: true
       scec-deployment:
         default_branch: main
         description: Ortelius Deployment Microservice
@@ -164,6 +219,10 @@ orgs:
       scec-deppkg:
         default_branch: main
         description: Ortelius SBOM Microservice
+        has_projects: true
+      scec-domain:
+        default_branch: main
+        description: Ortelius Domain Microservice
         has_projects: true
       scec-environment:
         default_branch: main
@@ -197,287 +256,180 @@ orgs:
         default_branch: main
         description: Ortelius Validate User Microservice
         has_projects: true
-      scec-domain:
+      scec-vulnerability:
         default_branch: main
-        description: Ortelius Domain Microservice
-        has_projects: true
-      ortelius.io:
-        default_branch: main
-        description: Ortelius Website
-        has_projects: true
-      ortelius-toc:
-        default_branch: main
-        description: Ortelius TOC Governance
-        has_projects: true
-      ortelius-kubernetes:
-        default_branch: main
-        description: Ortelius Kustomize/Argo Deployments
-        has_projects: true
-      azure-infra:
-        default_branch: main
-        description: Ortelius Terraform for Azure
-        has_projects: true
-      backstage:
-        default_branch: main
-        description: Ortelius Backstage Setup
-        has_projects: true
-      la-sbom-ledger:
-        default_branch: main
-        description: Ortelius XRPL Grant
-        has_projects: true
-      ortelius-cli:
-        default_branch: main
-        description: Ortelius CLI for CI/CD Pipeline
-        has_projects: true
-      outreach:
-        default_branch: main
-        description: Ortelius Outreach
-        has_projects: true
-      dev-env-setup:
-        default_branch: main
-        description: Ortelius Dev Environment Resources
-        has_projects: true
-      ortelius-docs:
-        default_branch: main
-        description: Ortelius Documentation
-        has_projects: true
-      ms-postgres:
-        default_branch: main
-        description: Ortelius Postgres Microservice
-        has_projects: true
-      keptn-ortelius-service:
-        default_branch: main
-        description: Ortelius Keptn Service
-        has_projects: true
-      arango-poc:
-        default_branch: main
-        description: Ortelius Argango POC
-        has_projects: true
-      keptn-config:
-        default_branch: main
-        description: Ortelius Keptn Setup
+        description: Ortelius Vulnerability Microservice
         has_projects: true
       testing:
         default_branch: main
         description: Ortelius Front-end Test Suites
         has_projects: true
-      ortelius-test-database:
+      universalreference.io-redirect:
         default_branch: main
-        description: Ortelius Test Data
+        description: Temporary redirect from universalreference.io to emporous.io
         has_projects: true
     teams:
-      ortelius:
-        description: "all members for now"
-        privacy: closed
-        maintainers:
-          - bradmccoydev
-          - codeWithUtkarsh
-          - sbtaylor15
-          - thelinuxfoundation
-        members:
-          - adrezni
-          - agardnerIT
-          - ankurkumarz
-          - Arvind644
-          - ayesha-kr
-          - BBimie
-          - chicks-net
-          - christianh814
-          - d10n
-          - day0hero
-          - devops-novice
-          - divya-mohan0209
-          - galemccommons
-          - GeniusLearner
-          - hamidgholami
-          - hdhruna
-          - itisaby
-          - jayesh-srivastava
-          - jessegonzalez
-          - jgarverick
-          - jiakalita
-          - josephakayesi
-          - karamjotsingh
-          - markyjackson-taulia
-          - munnyraht
-          - obowersa
-          - oleg-nenashev
-          - peRFectBeliever
-          - Rubix982
-          - sachajw
-          - sanjeepan23
-          - saxenaaman628
-          - sfxworks
-          - TracyRagan
-          - wmdev0808
-          - zacharyljones
-        teams:
-          ortelius-maintainers:
-            description: "Ortelius maintainers"
-            privacy: closed
-            maintainers:
-              - bradmccoydev
-              - codeWithUtkarsh
-              - sbtaylor15
-              - thelinuxfoundation
-            members:
-              - adrezni
-              - agardnerIT
-              - ankurkumarz
-              - Arvind644
-              - ayesha-kr
-              - BBimie
-              - chicks-net
-              - christianh814
-              - d10n
-              - day0hero
-              - devops-novice
-              - divya-mohan0209
-              - galemccommons
-              - GeniusLearner
-              - hamidgholami
-              - hdhruna
-              - itisaby
-              - jayesh-srivastava
-              - jessegonzalez
-              - jgarverick
-              - jiakalita
-              - josephakayesi
-              - karamjotsingh
-              - markyjackson-taulia
-              - munnyraht
-              - obowersa
-              - oleg-nenashev
-              - peRFectBeliever
-              - Rubix982
-              - sachajw
-              - sanjeepan23
-              - saxenaaman628
-              - sfxworks
-              - TracyRagan
-              - wmdev0808
-              - zacharyljones
-            repos:
-              arango-poc: write
-              azure-infra: write
-              backstage: write
-              dev-env-setup: write
-              keptn-config: write
-              keptn-ortelius-service: write
-              la-sbom-ledger: write
-              ms-compitem-crud: write
-              ms-dep-pkg-cud: write
-              ms-dep-pkg-r: write
-              ms-postgres: write
-              ms-scorecard: write
-              ms-textfile-crud: write
-              ms-validate-user: write
-              ortelius: write
-              ortelius-charts: write
-              ortelius-cli: write
-              ortelius-docs: write
-              ortelius-kubernetes: write
-              ortelius-test-database: write
-              ortelius-toc: write
-              ortelius.io: write
-              outreach: write
-              scec-appver: write
-              scec-commons: write
-              scec-comp-tag: write
-              scec-compver: write
-              scec-deployment: write
-              scec-deppkg: write
-              scec-domain: write
-              scec-environment: write
-              scec-group: write
-              scec-scorecard: write
-              scec-textfile: write
-              scec-user: write
-              scec-usergroup: write
-              scec-validate-provenance: write
-              scec-validate-signing: write
-              scec-validate-user: write
-              scec-vulnerability: write
-
       ci:
-        description: "Continuous Integration"
-        privacy: closed
+        description: Continuous Integration
         members:
-          - d10n
-          - sfxworks
-        teams:
-          ci-maintainers:
-            description: "Continuous Integration artifact and configuration maintainers"
-            privacy: closed
-            members:
-              - d10n
-              - sfxworks
-            repos:
-              samples: write
+        - d10n
+        - sfxworks
+        privacy: closed
+      ci-maintainers:
+        description: Continuous Integration artifact and configuration maintainers
+        members:
+        - d10n
+        - sfxworks
+        privacy: closed
+        repos:
+          samples: write
       client:
-        description: "ClI and Libraries"
-        privacy: closed
+        description: ClI and Libraries
         maintainers:
-          - afflom
-          - jpower432
-          - sabre1041
+        - afflom
+        - jpower432
+        - sabre1041
         members:
-          - d10n
-        teams:
-          client-maintainers:
-            description: "CLI and Library codebase maintainers"
-            privacy: closed
-            maintainers:
-              - afflom
-              - jpower432
-              - sabre1041
-            members:
-              - d10n
-            repos:
-              emporous-go: write
-              collection-spec: write
+        - d10n
+        privacy: closed
+      client-maintainers:
+        description: CLI and Library codebase maintainers
+        maintainers:
+        - afflom
+        - jpower432
+        - sabre1041
+        members:
+        - d10n
+        privacy: closed
+        repos:
+          collection-spec: write
+          emporous-go: write
       docs:
-        description: "Documentation"
-        privacy: closed
+        description: Documentation
         maintainers:
-          - jpower432
-          - usrbinkat
-        teams:
-          docs-maintainers:
-            description: "Organization documentation maintainers"
-            privacy: closed
-            maintainers:
-              - jpower432
-              - usrbinkat
-            repos:
-              community: write
-              emporous.io: write
-              .github: write
-            previously:
-              - emporous-docs
-      examples:
-        description: "Emporous use case examples and demos"
+        - jpower432
+        - usrbinkat
         privacy: closed
-        members:
-          - d10n
-          - sfxworks
-        teams:
-          examples-maintainers:
-            description: "Examples and demo maintainers"
-            privacy: closed
-            members:
-              - d10n
-              - sfxworks
-            repos:
-              examples: write
+      docs-maintainers:
+        description: Organization documentation maintainers
+        maintainers:
+        - jpower432
+        - usrbinkat
+        previously:
+        - emporous-docs
+        privacy: closed
+        repos:
+          ".github": write
+          community: write
+          emporous.io: write
       event:
-        description: ""
-        privacy: closed
-        members: []
+        description: ''
         maintainers: []
+        members: []
+        privacy: closed
         repos: {}
         teams:
           event-maintainers:
-            description: ""
-            privacy: closed
+            description: ''
             members: []
+            privacy: closed
+      examples:
+        description: Emporous use case examples and demos
+        members:
+        - d10n
+        - sfxworks
+        privacy: closed
+      examples-maintainers:
+        description: Examples and demo maintainers
+        members:
+        - d10n
+        - sfxworks
+        privacy: closed
+        repos:
+          examples: write
+      ortelius:
+        description: all members for now
+        maintainers:
+        - bradmccoydev
+        - codeWithUtkarsh
+        - sbtaylor15
+        - thelinuxfoundation
+        members:
+        - adrezni
+        - agardnerIT
+        - ankurkumarz
+        - Arvind644
+        - ayesha-kr
+        - BBimie
+        - chicks-net
+        - christianh814
+        - d10n
+        - day0hero
+        - devops-novice
+        - divya-mohan0209
+        - galemccommons
+        - GeniusLearner
+        - hamidgholami
+        - hdhruna
+        - itisaby
+        - jayesh-srivastava
+        - jessegonzalez
+        - jgarverick
+        - jiakalita
+        - josephakayesi
+        - karamjotsingh
+        - markyjackson-taulia
+        - munnyraht
+        - obowersa
+        - oleg-nenashev
+        - peRFectBeliever
+        - Rubix982
+        - sachajw
+        - sanjeepan23
+        - saxenaaman628
+        - sfxworks
+        - TracyRagan
+        - wmdev0808
+        - zacharyljones
+        privacy: closed
+        repos:
+          arango-poc: write
+          azure-infra: write
+          backstage: write
+          dev-env-setup: write
+          keptn-config: write
+          keptn-ortelius-service: write
+          la-sbom-ledger: write
+          ms-compitem-crud: write
+          ms-dep-pkg-cud: write
+          ms-dep-pkg-r: write
+          ms-postgres: write
+          ms-scorecard: write
+          ms-textfile-crud: write
+          ms-validate-user: write
+          ortelius: write
+          ortelius-charts: write
+          ortelius-cli: write
+          ortelius-docs: write
+          ortelius-kubernetes: write
+          ortelius-test-database: write
+          ortelius-toc: write
+          ortelius.io: write
+          outreach: write
+          scec-appver: write
+          scec-commons: write
+          scec-comp-tag: write
+          scec-compver: write
+          scec-deployment: write
+          scec-deppkg: write
+          scec-domain: write
+          scec-environment: write
+          scec-group: write
+          scec-scorecard: write
+          scec-textfile: write
+          scec-user: write
+          scec-usergroup: write
+          scec-validate-provenance: write
+          scec-validate-signing: write
+          scec-validate-user: write
+          scec-vulnerability: write
