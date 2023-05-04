@@ -146,9 +146,65 @@ orgs:
         default_branch: main
         description: Ortelius v11 Common Code
         has_projects: true
+      scec-appver:
+        default_branch: main
+        description: Ortelius Application Version Microservice
+        has_projects: true
+      scec-comp-tag:
+        default_branch: main
+        description: Ortelius Component Tag Microservice
+        has_projects: true
+      scec-compver:
+        default_branch: main
+        description: Ortelius Component Version Microservice
+        has_projects: true
+      scec-vulnerability:
+        default_branch: main
+        description: Ortelius Vulnerability Microservice
+        has_projects: true
+      scec-deployment:
+        default_branch: main
+        description: Ortelius Deployment Microservice
+        has_projects: true
+      scec-deppkg:
+        default_branch: main
+        description: Ortelius SBOM Microservice
+        has_projects: true
+      scec-environment:
+        default_branch: main
+        description: Ortelius Environment Microservice
+        has_projects: true
+      scec-group:
+        default_branch: main
+        description: Ortelius Group Microservice
+        has_projects: true
+      scec-scorecard:
+        default_branch: main
+        description: Ortelius Scorecard Microservice
+        has_projects: true
+      scec-textfile:
+        default_branch: main
+        description: Ortelius Textfile Microservice
+        has_projects: true
+      scec-user:
+        default_branch: main
+        description: Ortelius User Microservice
+        has_projects: true
+      scec-validate-provenance:
+        default_branch: main
+        description: Ortelius Validate Provenance Microservice
+        has_projects: true
+      scec-validate-signing:
+        default_branch: main
+        description: Ortelius Validate Signing Microservice
+        has_projects: true
+      scec-validate-user:
+        default_branch: main
+        description: Ortelius Validate User Microservice
+        has_projects: true
       scec-domain:
         default_branch: main
-        description: Ortelius v11 Domain Microservice
+        description: Ortelius Domain Microservice
         has_projects: true
       ortelius.io:
         default_branch: main
@@ -261,33 +317,47 @@ orgs:
           - thelinuxfoundation
           - TracyRagan
         repos:
-          - ortelius-charts
-          - ms-validate-user
-          - ms-textfile-crud
-          - ms-dep-pkg-cud
-          - ortelius
-          - ms-dep-pkg-r
-          - ms-scorecard
-          - ms-compitem-crud
-          - scec-commons
-          - scec-domain
-          - ortelius.io
-          - ortelius-toc
-          - ortelius-kubernetes
-          - azure-infra
-          - backstage
-          - la-sbom-ledger
-          - ortelius-cli
-          - .github
-          - outreach
-          - dev-env-setup
-          - ortelius-docs
-          - ms-postgres
-          - keptn-ortelius-service
-          - arango-poc
-          - keptn-config
-          - testing
-          - ortelius-test-database
+          arango-poc: write
+          azure-infra: write
+          backstage: write
+          dev-env-setup: write
+          keptn-config: write
+          keptn-ortelius-service: write
+          la-sbom-ledger: write
+          ms-compitem-crud: write
+          ms-dep-pkg-cud: write
+          ms-dep-pkg-r: write
+          ms-postgres: write
+          ms-scorecard: write
+          ms-textfile-crud: write
+          ms-validate-user: write
+          ortelius: write
+          ortelius-charts: write
+          ortelius-cli: write
+          ortelius-docs: write
+          ortelius-kubernetes: write
+          ortelius-test-database: write
+          ortelius-toc: write
+          ortelius.io: write
+          outreach: write
+          scec-appver: write
+          scec-commons: write
+          scec-comp-tag: write
+          scec-compver: write
+          scec-deployment: write
+          scec-deppkg: write
+          scec-domain: write
+          scec-environment: write
+          scec-group: write
+          scec-scorecard: write
+          scec-textfile: write
+          scec-user: write
+          scec-usergroup: write
+          scec-validate-provenance: write
+          scec-validate-signing: write
+          scec-validate-user: write
+          scec-vulnerability: write
+
       ci:
         description: "Continuous Integration"
         privacy: closed
