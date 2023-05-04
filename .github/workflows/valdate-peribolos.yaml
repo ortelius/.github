@@ -1,32 +1,62 @@
-name: Verify Peribolos
+name: Verify and Apply Peribolos
 on:
   push:
-    branches:
-      - "**"
   pull_request:
-    branches:
-      - main
-
 jobs:
   project:
-    name: Verify peribolos
+    name: Apply peribolos.yaml to the org
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: install Go
+      - name: Install Go
         uses: actions/setup-go@v3
         with:
           go-version: 1.18
-      - name: checkout repo
+
+      - name: Checkout ortelius/.github repo
         uses: actions/checkout@v3
         with:
           path: src/github.com/emporous/.github
-      - name: verify go modules and vendor directory
+
+      - name: Build the peribolos.yaml syntax checker
         run: |
           go mod tidy
           go mod vendor
         working-directory: src/github.com/emporous/.github
-      - name: running unit tests
+
+      - name: Checking peribolos.yaml syntax
         run: |
           go test ./... --config ../peribolos.yaml --owners-dir ../
+          cp peribolos.yaml /tmp
         working-directory: src/github.com/emporous/.github
+
+      - name: Checkout ghproxy and peribolos code
+        if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        uses: actions/checkout@v3
+        with:
+          repository: kubernetes/test-infra
+
+      - name: Build ghproxy
+        if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          cd ghproxy
+          go build -o ghproxy .
+          cp ghproxy /tmp
+
+      - name: Build peribolos
+        if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          cd prow/cmd/peribolos
+          go build -o peribolos .
+          cp peribolos /tmp
+
+      - name: Apply peribolos.yaml
+        if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          echo ${{ secrets.HELM_INDEXER_TOKEN  }} > auth.txt
+          /tmp/ghproxy --legacy-disable-disk-cache-partitions-by-auth-header=false --get-throttling-time-ms=300 --throttling-time-ms=900 --throttling-time-v4-ms=850 --throttling-max-delay-duration-seconds=45 --throttling-max-delay-duration-v4-seconds=110 --request-timeout=120 1>/dev/null 2>&1 &
+          pid=$!
+          jobs
+          /tmp/peribolos -config-path /tmp/peribolos.yaml  --fix-org --fix-org-members --fix-teams --fix-team-members --github-token-path auth.txt --github-endpoint http://localhost:8888 --confirm
+          kill $pid
+          rm auth.txt
