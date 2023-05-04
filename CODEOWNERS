@@ -8,4 +8,4 @@ profile/* @ortelius/docs-maintainers
 governance/* @ortelius/docs-maintainers
 *.md @ortelius/docs-maintainers
 
-@ortelius/ortelius
+* @ortelius/ortelius
