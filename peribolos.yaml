@@ -2,60 +2,61 @@
 orgs:
   ortelius:
     admins:
-    - afflom
-    - bradmccoydev
-    - codeWithUtkarsh
-    - jpower432
-    - sabre1041
-    - sbtaylor15
-    - thelinuxfoundation
-    - usrbinkat
+      - afflom
+      - bradmccoydev
+      - codeWithUtkarsh
+      - jpower432
+      - sabre1041
+      - sbtaylor15
+      - thelinuxfoundation
+      - usrbinkat
     billing_email: steve@deployhub.com
-    company: ''
+    company: ""
     default_repository_permission: read
-    description: An open source toolkit to manage different types of content in a
+    description:
+      An open source toolkit to manage different types of content in a
       single, unified system.
     email: ortelius-dev@googlegroups.com
     has_organization_projects: true
     has_repository_projects: true
-    location: ''
+    location: ""
     members:
-    - adrezni
-    - agardnerIT
-    - ankurkumarz
-    - Arvind644
-    - ayesha-kr
-    - BBimie
-    - chicks-net
-    - christianh814
-    - d10n
-    - day0hero
-    - devops-novice
-    - divya-mohan0209
-    - galemccommons
-    - GeniusLearner
-    - hamidgholami
-    - hdhruna
-    - itisaby
-    - jayesh-srivastava
-    - jessegonzalez
-    - jgarverick
-    - jiakalita
-    - josephakayesi
-    - karamjotsingh
-    - markyjackson-taulia
-    - munnyraht
-    - obowersa
-    - oleg-nenashev
-    - peRFectBeliever
-    - Rubix982
-    - sachajw
-    - sanjeepan23
-    - saxenaaman628
-    - sfxworks
-    - TracyRagan
-    - wmdev0808
-    - zacharyljones
+      - adrezni
+      - agardnerIT
+      - ankurkumarz
+      - Arvind644
+      - ayesha-kr
+      - BBimie
+      - chicks-net
+      - christianh814
+      - d10n
+      - day0hero
+      - devops-novice
+      - divya-mohan0209
+      - galemccommons
+      - GeniusLearner
+      - hamidgholami
+      - hdhruna
+      - itisaby
+      - jayesh-srivastava
+      - jessegonzalez
+      - jgarverick
+      - jiakalita
+      - josephakayesi
+      - karamjotsingh
+      - markyjackson-taulia
+      - munnyraht
+      - obowersa
+      - oleg-nenashev
+      - peRFectBeliever
+      - Rubix982
+      - sachajw
+      - sanjeepan23
+      - saxenaaman628
+      - sfxworks
+      - TracyRagan
+      - wmdev0808
+      - zacharyljones
     members_can_create_repositories: true
     name: Ortelius
     repos:
@@ -193,7 +194,8 @@ orgs:
         has_projects: true
       samples:
         default_branch: main
-        description: This repo contains reference implementations of sample content
+        description:
+          This repo contains reference implementations of sample content
           to demonstrate Emporous core functionality
         has_projects: true
       scec-appver:
@@ -272,125 +274,125 @@ orgs:
       ci:
         description: Continuous Integration
         members:
-        - d10n
-        - sfxworks
+          - d10n
+          - sfxworks
         privacy: closed
-      ci-maintainers:
-        description: Continuous Integration artifact and configuration maintainers
-        members:
-        - d10n
-        - sfxworks
-        privacy: closed
-        repos:
-          samples: write
+        teams:
+          ci-maintainers:
+            description: Continuous Integration artifact and configuration maintainers
+            members:
+              - d10n
+              - sfxworks
+            privacy: closed
+            repos:
+              samples: write
       client:
         description: ClI and Libraries
         maintainers:
-        - afflom
-        - jpower432
-        - sabre1041
+          - afflom
+          - jpower432
+          - sabre1041
         members:
-        - d10n
+          - d10n
         privacy: closed
-      client-maintainers:
-        description: CLI and Library codebase maintainers
-        maintainers:
-        - afflom
-        - jpower432
-        - sabre1041
-        members:
-        - d10n
-        privacy: closed
-        repos:
-          collection-spec: write
-          emporous-go: write
+        teams:
+          client-maintainers:
+            description: CLI and Library codebase maintainers
+            maintainers:
+              - afflom
+              - jpower432
+              - sabre1041
+            members:
+              - d10n
+            privacy: closed
+            repos:
+              collection-spec: write
+              emporous-go: write
       docs:
         description: Documentation
         maintainers:
-        - jpower432
-        - usrbinkat
+          - jpower432
+          - usrbinkat
         privacy: closed
-      docs-maintainers:
-        description: Organization documentation maintainers
-        maintainers:
-        - jpower432
-        - usrbinkat
-        previously:
-        - emporous-docs
-        privacy: closed
-        repos:
-          ".github": write
-          community: write
-          emporous.io: write
+        teams:
+          docs-maintainers:
+            description: Organization documentation maintainers
+            maintainers:
+              - jpower432
+              - usrbinkat
+            previously:
+              - emporous-docs
+            privacy: closed
+            repos:
+              ".github": write
+              community: write
+              emporous.io: write
       event:
-        description: ''
+        description: ""
         maintainers: []
         members: []
         privacy: closed
         repos: {}
         teams:
           event-maintainers:
-            description: ''
+            description: ""
             members: []
             privacy: closed
       examples:
         description: Emporous use case examples and demos
         members:
-        - d10n
-        - sfxworks
+          - d10n
+          - sfxworks
         privacy: closed
-      examples-maintainers:
-        description: Examples and demo maintainers
-        members:
-        - d10n
-        - sfxworks
-        privacy: closed
-        repos:
-          examples: write
-      ortelius:
+        teams:
+          examples-maintainers:
+            description: Examples and demo maintainers
+            members:
+              - d10n
+              - sfxworks
+            privacy: closed
+            repos:
+              examples: write
+      Dev:
         description: all members for now
-        maintainers:
-        - bradmccoydev
-        - codeWithUtkarsh
-        - sbtaylor15
-        - thelinuxfoundation
+        maintainers: []
         members:
-        - adrezni
-        - agardnerIT
-        - ankurkumarz
-        - Arvind644
-        - ayesha-kr
-        - BBimie
-        - chicks-net
-        - christianh814
-        - d10n
-        - day0hero
-        - devops-novice
-        - divya-mohan0209
-        - galemccommons
-        - GeniusLearner
-        - hamidgholami
-        - hdhruna
-        - itisaby
-        - jayesh-srivastava
-        - jessegonzalez
-        - jgarverick
-        - jiakalita
-        - josephakayesi
-        - karamjotsingh
-        - markyjackson-taulia
-        - munnyraht
-        - obowersa
-        - oleg-nenashev
-        - peRFectBeliever
-        - Rubix982
-        - sachajw
-        - sanjeepan23
-        - saxenaaman628
-        - sfxworks
-        - TracyRagan
-        - wmdev0808
-        - zacharyljones
+          - adrezni
+          - agardnerIT
+          - ankurkumarz
+          - Arvind644
+          - ayesha-kr
+          - BBimie
+          - chicks-net
+          - christianh814
+          - d10n
+          - day0hero
+          - devops-novice
+          - divya-mohan0209
+          - galemccommons
+          - GeniusLearner
+          - hamidgholami
+          - hdhruna
+          - itisaby
+          - jayesh-srivastava
+          - jessegonzalez
+          - jgarverick
+          - jiakalita
+          - josephakayesi
+          - karamjotsingh
+          - markyjackson-taulia
+          - munnyraht
+          - obowersa
+          - oleg-nenashev
+          - peRFectBeliever
+          - Rubix982
+          - sachajw
+          - sanjeepan23
+          - saxenaaman628
+          - sfxworks
+          - TracyRagan
+          - wmdev0808
+          - zacharyljones
         privacy: closed
         repos:
           arango-poc: write
