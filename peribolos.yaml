@@ -2,14 +2,13 @@ orgs:
   ortelius:
     admins:
       - afflom
-      - jpower432
-      - peribolos
-      - sabre1041
-      - usrbinkat
-      - sbtaylor15
-      - codeWithUtkarsh
       - bradmccoydev
+      - codeWithUtkarsh
+      - jpower432
+      - sabre1041
+      - sbtaylor15
       - thelinuxfoundation
+      - usrbinkat
     billing_email: steve@deployhub.com
     company: ""
     default_repository_permission: read
@@ -20,18 +19,15 @@ orgs:
     location: ""
     members:
       - adrezni
-      - christianh814
-      - d10n
-      - day0hero
-      - sfxworks
       - agardnerIT
       - ankurkumarz
       - Arvind644
       - ayesha-kr
       - BBimie
-      - bradmccoydev
       - chicks-net
-      - codeWithUtkarsh
+      - christianh814
+      - d10n
+      - day0hero
       - devops-novice
       - divya-mohan0209
       - galemccommons
@@ -54,8 +50,7 @@ orgs:
       - sachajw
       - sanjeepan23
       - saxenaaman628
-      - sbtaylor15
-      - thelinuxfoundation
+      - sfxworks
       - TracyRagan
       - wmdev0808
       - zacharyljones
@@ -272,19 +267,24 @@ orgs:
         has_projects: true
     teams:
       ortelius:
-        description: ""
+        description: "all members for now"
         privacy: closed
+        maintainers:
+          - bradmccoydev
+          - codeWithUtkarsh
+          - sbtaylor15
+          - thelinuxfoundation
         members:
           - adrezni
-          - christianh814
-          - d10n
-          - day0hero
-          - sfxworks
           - agardnerIT
           - ankurkumarz
+          - Arvind644
           - ayesha-kr
           - BBimie
           - chicks-net
+          - christianh814
+          - d10n
+          - day0hero
           - devops-novice
           - divya-mohan0209
           - galemccommons
@@ -296,67 +296,108 @@ orgs:
           - jessegonzalez
           - jgarverick
           - jiakalita
+          - josephakayesi
+          - karamjotsingh
           - markyjackson-taulia
           - munnyraht
           - obowersa
           - oleg-nenashev
           - peRFectBeliever
           - Rubix982
+          - sachajw
           - sanjeepan23
           - saxenaaman628
+          - sfxworks
+          - TracyRagan
           - wmdev0808
           - zacharyljones
-        maintainers:
-          - Arvind644
-          - bradmccoydev
-          - codeWithUtkarsh
-          - josephakayesi
-          - karamjotsingh
-          - sachajw
-          - sbtaylor15
-          - thelinuxfoundation
-          - TracyRagan
-        repos:
-          arango-poc: write
-          azure-infra: write
-          backstage: write
-          dev-env-setup: write
-          keptn-config: write
-          keptn-ortelius-service: write
-          la-sbom-ledger: write
-          ms-compitem-crud: write
-          ms-dep-pkg-cud: write
-          ms-dep-pkg-r: write
-          ms-postgres: write
-          ms-scorecard: write
-          ms-textfile-crud: write
-          ms-validate-user: write
-          ortelius: write
-          ortelius-charts: write
-          ortelius-cli: write
-          ortelius-docs: write
-          ortelius-kubernetes: write
-          ortelius-test-database: write
-          ortelius-toc: write
-          ortelius.io: write
-          outreach: write
-          scec-appver: write
-          scec-commons: write
-          scec-comp-tag: write
-          scec-compver: write
-          scec-deployment: write
-          scec-deppkg: write
-          scec-domain: write
-          scec-environment: write
-          scec-group: write
-          scec-scorecard: write
-          scec-textfile: write
-          scec-user: write
-          scec-usergroup: write
-          scec-validate-provenance: write
-          scec-validate-signing: write
-          scec-validate-user: write
-          scec-vulnerability: write
+        teams:
+          ortelius-maintainers:
+            description: "Ortelius maintainers"
+            privacy: closed
+            maintainers:
+              - bradmccoydev
+              - codeWithUtkarsh
+              - sbtaylor15
+              - thelinuxfoundation
+            members:
+              - adrezni
+              - agardnerIT
+              - ankurkumarz
+              - Arvind644
+              - ayesha-kr
+              - BBimie
+              - chicks-net
+              - christianh814
+              - d10n
+              - day0hero
+              - devops-novice
+              - divya-mohan0209
+              - galemccommons
+              - GeniusLearner
+              - hamidgholami
+              - hdhruna
+              - itisaby
+              - jayesh-srivastava
+              - jessegonzalez
+              - jgarverick
+              - jiakalita
+              - josephakayesi
+              - karamjotsingh
+              - markyjackson-taulia
+              - munnyraht
+              - obowersa
+              - oleg-nenashev
+              - peRFectBeliever
+              - Rubix982
+              - sachajw
+              - sanjeepan23
+              - saxenaaman628
+              - sfxworks
+              - TracyRagan
+              - wmdev0808
+              - zacharyljones
+            repos:
+              arango-poc: write
+              azure-infra: write
+              backstage: write
+              dev-env-setup: write
+              keptn-config: write
+              keptn-ortelius-service: write
+              la-sbom-ledger: write
+              ms-compitem-crud: write
+              ms-dep-pkg-cud: write
+              ms-dep-pkg-r: write
+              ms-postgres: write
+              ms-scorecard: write
+              ms-textfile-crud: write
+              ms-validate-user: write
+              ortelius: write
+              ortelius-charts: write
+              ortelius-cli: write
+              ortelius-docs: write
+              ortelius-kubernetes: write
+              ortelius-test-database: write
+              ortelius-toc: write
+              ortelius.io: write
+              outreach: write
+              scec-appver: write
+              scec-commons: write
+              scec-comp-tag: write
+              scec-compver: write
+              scec-deployment: write
+              scec-deppkg: write
+              scec-domain: write
+              scec-environment: write
+              scec-group: write
+              scec-scorecard: write
+              scec-textfile: write
+              scec-user: write
+              scec-usergroup: write
+              scec-validate-provenance: write
+              scec-validate-signing: write
+              scec-validate-user: write
+              scec-vulnerability: write
 
       ci:
         description: "Continuous Integration"
