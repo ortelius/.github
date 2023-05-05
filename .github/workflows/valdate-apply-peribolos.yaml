@@ -1,6 +1,8 @@
 name: Verify and Apply Peribolos
 on:
   push:
+    branches:
+      - main
   pull_request:
 jobs:
   project:
@@ -57,6 +59,6 @@ jobs:
           /tmp/ghproxy --legacy-disable-disk-cache-partitions-by-auth-header=false --get-throttling-time-ms=300 --throttling-time-ms=900 --throttling-time-v4-ms=850 --throttling-max-delay-duration-seconds=45 --throttling-max-delay-duration-v4-seconds=110 --request-timeout=120 1>/dev/null 2>&1 &
           pid=$!
           jobs
-          /tmp/peribolos -config-path /tmp/peribolos.yaml  --fix-org --fix-org-members --fix-teams --fix-team-members --github-token-path auth.txt --github-endpoint http://localhost:8888 --confirm
+          /tmp/peribolos -config-path /tmp/peribolos.yaml  --fix-org --fix-org-members --fix-teams --fix-team-members --github-token-path auth.txt --github-endpoint http://localhost:8888 --confirm 2>&1 | jq -r '[.severity, .time, .msg] | join(" | ")'
           kill $pid
           rm auth.txt
