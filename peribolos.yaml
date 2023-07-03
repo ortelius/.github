@@ -2,7 +2,6 @@
 orgs:
   ortelius:
     admins:
-      - afflom
       - Arvind644
       - bradmccoydev
       - codeWithUtkarsh
@@ -22,16 +21,12 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
-      - adrezni
       - agardnerIT
       - ankurkumarz
       - ayesha-kr
       - BBimie
       - bingomanatee
       - chicks-net
-      - christianh814
-      - d10n
-      - day0hero
       - devops-novice
       - divya-mohan0209
       - galemccommons
@@ -41,11 +36,9 @@ orgs:
       - itisaby
       - jayesh-srivastava
       - jessegonzalez
-      - jgarverick
       - jiakalita
       - josephakayesi
       - karamjotsingh
-      - markyjackson-taulia
       - munnyraht
       - obowersa
       - oleg-nenashev
@@ -55,7 +48,6 @@ orgs:
       - sanjeepan23
       - saxenaaman628
       - scanalesespinoza
-      - sfxworks
       - taylore1108
       - TracyRagan
       - wmdev0808
@@ -277,36 +269,28 @@ orgs:
       ci:
         description: Continuous Integration
         members:
-          - d10n
-          - sfxworks
         privacy: closed
         teams:
           ci-maintainers:
             description: Continuous Integration artifact and configuration maintainers
             members:
-              - d10n
-              - sfxworks
             privacy: closed
             repos:
               samples: write
       client:
         description: ClI and Libraries
         maintainers:
-          - afflom
           - jpower432
           - sabre1041
         members:
-          - d10n
         privacy: closed
         teams:
           client-maintainers:
             description: CLI and Library codebase maintainers
             maintainers:
-              - afflom
               - jpower432
               - sabre1041
             members:
-              - d10n
             privacy: closed
             repos:
               collection-spec: write
@@ -344,15 +328,11 @@ orgs:
       examples:
         description: Emporous use case examples and demos
         members:
-          - d10n
-          - sfxworks
         privacy: closed
         teams:
           examples-maintainers:
             description: Examples and demo maintainers
             members:
-              - d10n
-              - sfxworks
             privacy: closed
             repos:
               examples: write
@@ -360,16 +340,12 @@ orgs:
         description: all members for now
         maintainers: []
         members:
-          - adrezni
           - agardnerIT
           - ankurkumarz
           - ayesha-kr
           - BBimie
           - bingomanatee
           - chicks-net
-          - christianh814
-          - d10n
-          - day0hero
           - devops-novice
           - divya-mohan0209
           - galemccommons
@@ -379,11 +355,9 @@ orgs:
           - itisaby
           - jayesh-srivastava
           - jessegonzalez
-          - jgarverick
           - jiakalita
           - josephakayesi
           - karamjotsingh
-          - markyjackson-taulia
           - munnyraht
           - obowersa
           - oleg-nenashev
@@ -393,7 +367,6 @@ orgs:
           - sanjeepan23
           - saxenaaman628
           - scanalesespinoza
-          - sfxworks
           - taylore1108
           - TracyRagan
           - wmdev0808
