@@ -43,6 +43,7 @@ jobs:
         run: |
           cd ghproxy
           go mod tidy
+          go clean -cache -modcache -testcache
           go build -o ghproxy .
           cp ghproxy /tmp
 
@@ -51,6 +52,7 @@ jobs:
         run: |
           cd prow/cmd/peribolos
           go mod tidy
+          go clean -cache -modcache -testcache
           go build -o peribolos .
           cp peribolos /tmp
 
