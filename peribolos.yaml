@@ -2,6 +2,7 @@
 orgs:
   ortelius:
     admins:
+      - afflom
       - Arvind644
       - bradmccoydev
       - codeWithUtkarsh
