@@ -29,6 +29,7 @@ orgs:
       - bingomanatee
       - chicks-net
       - devops-novice
+      - devsargam
       - divya-mohan0209
       - galemccommons
       - GeniusLearner
@@ -226,6 +227,10 @@ orgs:
         default_branch: main
         description: Ortelius Environment Microservice
         has_projects: true
+      scec-frontend:
+        default_branch: main
+        description: Ortelius Frontend Microservice
+        has_projects: true
       scec-group:
         default_branch: main
         description: Ortelius Group Microservice
@@ -348,6 +353,7 @@ orgs:
           - bingomanatee
           - chicks-net
           - devops-novice
+          - devsargam
           - divya-mohan0209
           - galemccommons
           - GeniusLearner
@@ -405,6 +411,7 @@ orgs:
           scec-deppkg: write
           scec-domain: write
           scec-environment: write
+          scec-frontend: write
           scec-group: write
           scec-scorecard: write
           scec-textfile: write
