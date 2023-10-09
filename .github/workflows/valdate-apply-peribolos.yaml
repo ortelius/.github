@@ -11,9 +11,9 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Install Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v4
         with:
-          go-version: 1.18
+          go-version: '1.20'
 
       - name: Checkout ortelius/.github repo
         uses: actions/checkout@v3
@@ -42,6 +42,7 @@ jobs:
         if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
           cd ghproxy
+          go mod tidy
           go build -o ghproxy .
           cp ghproxy /tmp
 
@@ -49,6 +50,7 @@ jobs:
         if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
           cd prow/cmd/peribolos
+          go mod tidy
           go build -o peribolos .
           cp peribolos /tmp
 
