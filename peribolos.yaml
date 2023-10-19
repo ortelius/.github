@@ -9,8 +9,8 @@ orgs:
       - jpower432
       - sabre1041
       - sbtaylor15
-      - TracyRagan
       - thelinuxfoundation
+      - TracyRagan
       - usrbinkat
     billing_email: steve@deployhub.com
     company: ""
@@ -53,7 +53,6 @@ orgs:
       - scanalesespinoza
       - shivam200446
       - taylore1108
-      - TracyRagan
       - wmdev0808
       - zacharyljones
     members_can_create_repositories: true
@@ -378,7 +377,6 @@ orgs:
           - scanalesespinoza
           - shivam200446
           - taylore1108
-          - TracyRagan
           - wmdev0808
           - zacharyljones
         privacy: closed
