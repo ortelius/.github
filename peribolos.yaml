@@ -373,8 +373,8 @@ orgs:
           - oleg-nenashev
           - peRFectBeliever
           - PriyaKashyapp
-          - Rubix982
           - raj-rox
+          - Rubix982
           - sachajw
           - sanjeepan23
           - saxenaaman628
@@ -399,13 +399,13 @@ orgs:
           ms-scorecard: write
           ms-textfile-crud: write
           ms-validate-user: write
-          ortelius: write
           ortelius-charts: write
           ortelius-cli: write
           ortelius-docs: write
           ortelius-kubernetes: write
           ortelius-test-database: write
           ortelius-toc: write
+          ortelius: write
           ortelius.io: write
           outreach: write
           scec-appver: write
@@ -418,6 +418,7 @@ orgs:
           scec-environment: write
           scec-frontend: write
           scec-group: write
+          scec-mitre-mapping: write
           scec-scorecard: write
           scec-textfile: write
           scec-user: write
