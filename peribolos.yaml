@@ -40,22 +40,19 @@ orgs:
       - jessegonzalez
       - jiakalita
       - josephakayesi
-      - KA11Anurag
       - karamjotsingh
+      - Elizabeth-CR
       - munnyraht
       - obowersa
       - oleg-nenashev
       - peRFectBeliever
-      - PriyaKashyapp
       - raj-rox
       - Rubix982
       - sachajw
       - sanjeepan23
       - saxenaaman628
       - scanalesespinoza
-      - shivam200446
       - taylore1108
-      - wmdev0808
       - zacharyljones
     members_can_create_repositories: true
     name: Ortelius
@@ -238,6 +235,10 @@ orgs:
         default_branch: main
         description: Ortelius Group Microservice
         has_projects: true
+      scec-mitre-mapping:
+        default_branch: main
+        description: Ortelius Mitre Attack Mapping Microservice
+        has_projects: true
       scec-scorecard:
         default_branch: main
         description: Ortelius Scorecard Microservice
@@ -245,6 +246,10 @@ orgs:
       scec-textfile:
         default_branch: main
         description: Ortelius Textfile Microservice
+        has_projects: true
+      scec-ui-design:
+        default_branch: main
+        description: Ortelius UI Design
         has_projects: true
       scec-user:
         default_branch: main
@@ -366,22 +371,19 @@ orgs:
           - jessegonzalez
           - jiakalita
           - josephakayesi
-          - KA11Anurag
           - karamjotsingh
+          - Elizabeth-CR
           - munnyraht
           - obowersa
           - oleg-nenashev
           - peRFectBeliever
-          - PriyaKashyapp
           - raj-rox
           - Rubix982
           - sachajw
           - sanjeepan23
           - saxenaaman628
           - scanalesespinoza
-          - shivam200446
           - taylore1108
-          - wmdev0808
           - zacharyljones
         privacy: closed
         repos:
@@ -421,6 +423,7 @@ orgs:
           scec-mitre-mapping: write
           scec-scorecard: write
           scec-textfile: write
+          scec-ui-design: write
           scec-user: write
           scec-usergroup: write
           scec-validate-provenance: write
