@@ -8,7 +8,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.1.2
 	k8s.io/apimachinery v0.29.3
-	k8s.io/test-infra v0.0.0-20240404201409-5d3ac46383da
+	k8s.io/test-infra v0.0.0-20240405000840-a05443e9c1fc
 )
 
 require (
