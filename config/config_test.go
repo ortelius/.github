@@ -25,11 +25,12 @@ import (
 	"strings"
 	"testing"
 
+	"sigs.k8s.io/prow/pkg/config/org"
+	"sigs.k8s.io/prow/pkg/github"
+
 	"github.com/ghodss/yaml"
 	"github.com/hmarr/codeowners"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/test-infra/prow/config/org"
-	"k8s.io/test-infra/prow/github"
 )
 
 var configPath = flag.String("config", "config.yaml", "Path to peribolos config")
