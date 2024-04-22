@@ -16,7 +16,7 @@ jobs:
           go-version: "1.21"
 
       - name: Checkout ortelius/.github repo
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f # v4
         with:
           path: src/github.com/emporous/.github
 
@@ -34,7 +34,7 @@ jobs:
 
       - name: Checkout ghproxy and peribolos code
         if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f # v4
         with:
           repository: kubernetes/test-infra
 
