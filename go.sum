@@ -126,6 +126,8 @@ gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 k8s.io/apimachinery v0.30.0 h1:qxVPsyDM5XS96NIh9Oj6LavoVFYff/Pon9cZeDIkHHA=
 k8s.io/apimachinery v0.30.0/go.mod h1:iexa2somDaxdnj7bha06bhb43Zpa6eWH8N8dbqVjTUc=
+k8s.io/apimachinery v0.30.1 h1:ZQStsEfo4n65yAdlGTfP/uSHMQSoYzU/oeEbkmF7P2U=
+k8s.io/apimachinery v0.30.1/go.mod h1:iexa2somDaxdnj7bha06bhb43Zpa6eWH8N8dbqVjTUc=
 k8s.io/klog/v2 v2.120.1 h1:QXU6cPEOIslTGvZaXvFWiP9VKyeet3sawzTOvdXb4Vw=
 k8s.io/klog/v2 v2.120.1/go.mod h1:3Jpz1GvMt720eyJH1ckRHK1EDfpxISzJ7I9OYgaDtPE=
 k8s.io/utils v0.0.0-20240310230437-4693a0247e57 h1:gbqbevonBh57eILzModw6mrkbwM0gQBEuevE/AaBsHY=
@@ -154,6 +156,8 @@ sigs.k8s.io/prow v0.0.0-20240511205003-16c13cde5644 h1:fiCMuXKgsj7XCQXhC+yEjL9xP
 sigs.k8s.io/prow v0.0.0-20240511205003-16c13cde5644/go.mod h1:/1dTk8PU8p4eaYlmTwT0D5vbYJO4nt97YCGBqA749kk=
 sigs.k8s.io/prow v0.0.0-20240513100449-f2b7a0198f26 h1:tJVMNj4Y7XxBNxhrlgHNuHmkFOfpoZSznr6DJD87zLs=
 sigs.k8s.io/prow v0.0.0-20240513100449-f2b7a0198f26/go.mod h1:/1dTk8PU8p4eaYlmTwT0D5vbYJO4nt97YCGBqA749kk=
+sigs.k8s.io/prow v0.0.0-20240515112433-dd5d0eeaa28f h1:cph3H1SOumeN0mfuLoBiRegTFbzD3cxIQwLzwZpViOg=
+sigs.k8s.io/prow v0.0.0-20240515112433-dd5d0eeaa28f/go.mod h1:/1dTk8PU8p4eaYlmTwT0D5vbYJO4nt97YCGBqA749kk=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1/go.mod h1:N8hJocpFajUSSeSJ9bOZ77VzejKZaXsTtZo4/u7Io08=
 sigs.k8s.io/yaml v1.4.0 h1:Mk1wCc2gy/F0THH0TAp1QYyJNzRm2KCLy3o5ASXVI5E=
