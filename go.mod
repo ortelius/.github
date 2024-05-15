@@ -5,8 +5,8 @@ go 1.22.2
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.1.2
-	k8s.io/apimachinery v0.30.0
-	sigs.k8s.io/prow v0.0.0-20240513100449-f2b7a0198f26
+	k8s.io/apimachinery v0.30.1
+	sigs.k8s.io/prow v0.0.0-20240515112433-dd5d0eeaa28f
 )
 
 require (
