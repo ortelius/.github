@@ -1,12 +1,12 @@
 module github.com/emporous/.github
 
-go 1.22.2
+go 1.22.3
 
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.1.2
 	k8s.io/apimachinery v0.30.1
-	sigs.k8s.io/prow v0.0.0-20240527172408-d543baace893
+	sigs.k8s.io/prow v0.0.0-20240528053828-00793f193576
 )
 
 require (
