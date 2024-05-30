@@ -41,7 +41,7 @@ jobs:
       - name: Build ghproxy
         if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
-          cd prow/cmd/ghproxy
+          cd cmd/ghproxy
           go mod tidy
           go build -o ghproxy .
           cp ghproxy /tmp
@@ -49,7 +49,7 @@ jobs:
       - name: Build peribolos
         if: ${{ github.repository_owner == 'ortelius' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
-          cd prow/cmd/peribolos
+          cd cmd/peribolos
           go mod tidy
           go build -o peribolos .
           cp peribolos /tmp
