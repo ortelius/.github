@@ -2,7 +2,7 @@
 * @ortelius/ortelius
 
 # Team and configuration owners
-peribolos.yaml       @jpower432 @sabre1041 @usrbinkat @sbtaylor15 @bradmccoydev @codeWithUtkarsh @thelinuxfoundation @TracyRagan
+peribolos.yaml       @jpower432 @sabre1041 @usrbinkat @sbtaylor15 @bradmccoydev @codeWithUtkarsh @thelinuxfoundation @TracyRagan @micmarti85
 
 # organizational docs owners
 profile/* @ortelius/docs-maintainers
