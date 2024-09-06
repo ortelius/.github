@@ -244,6 +244,8 @@ sigs.k8s.io/prow v0.0.0-20240827110656-195f38540f39 h1:F20oo6AoN4dwFzZF+BK51imC0
 sigs.k8s.io/prow v0.0.0-20240827110656-195f38540f39/go.mod h1:ET3UlJAy73TpAdmnvfFZAHfWxqB1rVIFkAgSwMHzMic=
 sigs.k8s.io/prow v0.0.0-20240902170516-b4c04a9b693b h1:h+PhyiB4g862CwnxQybycZcR1tjFC1FCip5yEYWJN8w=
 sigs.k8s.io/prow v0.0.0-20240902170516-b4c04a9b693b/go.mod h1:nIN9CIT6eaqbXEKlOLJkADdFVk+wXKxP8Q6kf8VUM8E=
+sigs.k8s.io/prow v0.0.0-20240906143543-7c1e4e90b512 h1:Kr8Vt6/ptFamiHmEuKSie39a2l3xAnXsMimrPPLi2bs=
+sigs.k8s.io/prow v0.0.0-20240906143543-7c1e4e90b512/go.mod h1:nIN9CIT6eaqbXEKlOLJkADdFVk+wXKxP8Q6kf8VUM8E=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1/go.mod h1:N8hJocpFajUSSeSJ9bOZ77VzejKZaXsTtZo4/u7Io08=
 sigs.k8s.io/yaml v1.4.0 h1:Mk1wCc2gy/F0THH0TAp1QYyJNzRm2KCLy3o5ASXVI5E=
