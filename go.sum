@@ -172,6 +172,8 @@ k8s.io/apimachinery v0.31.2 h1:i4vUt2hPK56W6mlT7Ry+AO8eEsyxMD1U44NR22CLTYw=
 k8s.io/apimachinery v0.31.2/go.mod h1:rsPdaZJfTfLsNJSQzNHQvYoTmxhoOEofxtOsF3rtsMo=
 k8s.io/apimachinery v0.31.3 h1:6l0WhcYgasZ/wk9ktLq5vLaoXJJr5ts6lkaQzgeYPq4=
 k8s.io/apimachinery v0.31.3/go.mod h1:rsPdaZJfTfLsNJSQzNHQvYoTmxhoOEofxtOsF3rtsMo=
+k8s.io/apimachinery v0.31.4 h1:8xjE2C4CzhYVm9DGf60yohpNUh5AEBnPxCryPBECmlM=
+k8s.io/apimachinery v0.31.4/go.mod h1:rsPdaZJfTfLsNJSQzNHQvYoTmxhoOEofxtOsF3rtsMo=
 k8s.io/klog/v2 v2.120.1 h1:QXU6cPEOIslTGvZaXvFWiP9VKyeet3sawzTOvdXb4Vw=
 k8s.io/klog/v2 v2.120.1/go.mod h1:3Jpz1GvMt720eyJH1ckRHK1EDfpxISzJ7I9OYgaDtPE=
 k8s.io/klog/v2 v2.130.1 h1:n9Xl7H1Xvksem4KFG4PYbdQCQxqc/tTUyrgXaOhHSzk=
@@ -318,6 +320,8 @@ sigs.k8s.io/prow v0.0.0-20241209194407-74bb4e39ceb1 h1:s1wBeT3xuinFNlvNlSiZbyeyj
 sigs.k8s.io/prow v0.0.0-20241209194407-74bb4e39ceb1/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
 sigs.k8s.io/prow v0.0.0-20241210061803-e4b0fffb5f1d h1:7TrNdBoDUBnJU9zfBzP0p3tJhAxHnvTBkW1dArzSPxI=
 sigs.k8s.io/prow v0.0.0-20241210061803-e4b0fffb5f1d/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
+sigs.k8s.io/prow v0.0.0-20241210202001-9b059e106dd9 h1:LuxgYnwxEkGRIrk2flETumLCr70kPXwnAEZHdJo5vb4=
+sigs.k8s.io/prow v0.0.0-20241210202001-9b059e106dd9/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1/go.mod h1:N8hJocpFajUSSeSJ9bOZ77VzejKZaXsTtZo4/u7Io08=
 sigs.k8s.io/yaml v1.4.0 h1:Mk1wCc2gy/F0THH0TAp1QYyJNzRm2KCLy3o5ASXVI5E=
