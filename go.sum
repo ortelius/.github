@@ -336,6 +336,8 @@ sigs.k8s.io/prow v0.0.0-20241210061803-e4b0fffb5f1d h1:7TrNdBoDUBnJU9zfBzP0p3tJh
 sigs.k8s.io/prow v0.0.0-20241210061803-e4b0fffb5f1d/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
 sigs.k8s.io/prow v0.0.0-20241210202001-9b059e106dd9 h1:LuxgYnwxEkGRIrk2flETumLCr70kPXwnAEZHdJo5vb4=
 sigs.k8s.io/prow v0.0.0-20241210202001-9b059e106dd9/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
+sigs.k8s.io/prow v0.0.0-20241217101453-ace5c41a5df4 h1:6mFZcFa1Qs3xntJA4ZNYBlOzMK+V9Xjw8se1BWcQOV0=
+sigs.k8s.io/prow v0.0.0-20241217101453-ace5c41a5df4/go.mod h1:1tSwYwUX5ODmroSnQDisu6BrgaG0NPq1xuPlyP+Z/a8=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1/go.mod h1:N8hJocpFajUSSeSJ9bOZ77VzejKZaXsTtZo4/u7Io08=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.2 h1:MdmvkGuXi/8io6ixD5wud3vOLwc1rj0aNqRlpuvjmwA=
