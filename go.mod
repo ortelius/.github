@@ -7,7 +7,7 @@ toolchain go1.23.4
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.2.1
-	k8s.io/apimachinery v0.32.0
+	k8s.io/apimachinery v0.32.1
 	sigs.k8s.io/prow v0.0.0-20241224162210-8e8a5cfe7516
 )
 
