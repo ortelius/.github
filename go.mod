@@ -2,13 +2,13 @@ module github.com/emporous/.github
 
 go 1.23.0
 
-toolchain go1.24.0
+toolchain go1.24.1
 
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.2.1
 	k8s.io/apimachinery v0.32.2
-	sigs.k8s.io/prow v0.0.0-20250224193828-35574334443a
+	sigs.k8s.io/prow v0.0.0-20250307150146-7a867cddc9d5
 )
 
 require (
