@@ -171,6 +171,8 @@ google.golang.org/protobuf v1.34.2 h1:6xV6lTsCfpGD21XK49h7MhtcApnLqkfYgPcdHftf6h
 google.golang.org/protobuf v1.34.2/go.mod h1:qYOHts0dSfpeUzUFpOMr/WGzszTmLH+DiWniOlNbLDw=
 google.golang.org/protobuf v1.35.1 h1:m3LfL6/Ca+fqnjnlqQXNpFPABW1UD7mjh8KO2mKFytA=
 google.golang.org/protobuf v1.35.1/go.mod h1:9fA7Ob0pmnwhb644+1+CVWFRbNajQ6iRojtC/QF5bRE=
+google.golang.org/protobuf v1.36.5 h1:tPhr+woSbjfYvY6/GPufUoYizxw1cF/yFoxJ2fmpwlM=
+google.golang.org/protobuf v1.36.5/go.mod h1:9fA7Ob0pmnwhb644+1+CVWFRbNajQ6iRojtC/QF5bRE=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c h1:Hei/4ADfdWqJk1ZMxUNpqntNwaWcugrBjAiHlqqRiVk=
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod h1:JHkPIbrfpd72SG/EVd6muEfDQjcINNoR0C8j2r3qZ4Q=
@@ -408,6 +410,8 @@ sigs.k8s.io/prow v0.0.0-20250418092710-9ba98b91920c h1:uBhvNHxXqEYBisIGKe3wWu8UJ
 sigs.k8s.io/prow v0.0.0-20250418092710-9ba98b91920c/go.mod h1:3BRAHGjOh2V4vOWmSBFbkU5P0RvHbVj3whcpo9/V6sc=
 sigs.k8s.io/prow v0.0.0-20250421160500-5699642101fe h1:6QvVsWXO24GYK1CpXZv2LDE9pYu/N4S3XzhVVH1vXaA=
 sigs.k8s.io/prow v0.0.0-20250421160500-5699642101fe/go.mod h1:3BRAHGjOh2V4vOWmSBFbkU5P0RvHbVj3whcpo9/V6sc=
+sigs.k8s.io/prow v0.0.0-20250422114341-d79ce707dd0f h1:URyzQhFC4ne4jciuim3jotQSgOHeGHgzlZGPO6d+pLM=
+sigs.k8s.io/prow v0.0.0-20250422114341-d79ce707dd0f/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1/go.mod h1:N8hJocpFajUSSeSJ9bOZ77VzejKZaXsTtZo4/u7Io08=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.2 h1:MdmvkGuXi/8io6ixD5wud3vOLwc1rj0aNqRlpuvjmwA=
