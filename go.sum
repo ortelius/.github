@@ -418,6 +418,8 @@ sigs.k8s.io/prow v0.0.0-20250422114341-d79ce707dd0f h1:URyzQhFC4ne4jciuim3jotQSg
 sigs.k8s.io/prow v0.0.0-20250422114341-d79ce707dd0f/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
 sigs.k8s.io/prow v0.0.0-20250422182140-30713f38122b h1:KOrH/A+sCy5SC4OEyhNbklRQsBqfoZZfLX5Nu9b5doA=
 sigs.k8s.io/prow v0.0.0-20250422182140-30713f38122b/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
+sigs.k8s.io/prow v0.0.0-20250425171323-fcccd15fed07 h1:0quF+tdAVf4/hIRfLFVLyT1BlW7lwyE1Vy8dvX5kBhA=
+sigs.k8s.io/prow v0.0.0-20250425171323-fcccd15fed07/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
 sigs.k8s.io/randfill v0.0.0-20250304075658-069ef1bbf016/go.mod h1:XeLlZ/jmk4i1HRopwe7/aU3H5n1zNUcX6TM94b3QxOY=
 sigs.k8s.io/randfill v1.0.0 h1:JfjMILfT8A6RbawdsK2JXGBR5AQVfd+9TbzrlneTyrU=
 sigs.k8s.io/randfill v1.0.0/go.mod h1:XeLlZ/jmk4i1HRopwe7/aU3H5n1zNUcX6TM94b3QxOY=
