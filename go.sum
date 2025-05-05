@@ -424,6 +424,8 @@ sigs.k8s.io/prow v0.0.0-20250430215755-f422de9611c4 h1:gqiCvw2QBfROYQshXqsQhAOIR
 sigs.k8s.io/prow v0.0.0-20250430215755-f422de9611c4/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
 sigs.k8s.io/prow v0.0.0-20250502124955-33f42d171c89 h1:8wOKjOVEJwb+EsLeW1DyOVJX5OeXGxBggE9dx9kqLpY=
 sigs.k8s.io/prow v0.0.0-20250502124955-33f42d171c89/go.mod h1:O1IS1X7Stut1fuB/OTfTeEp7TDU+5WgUvYz5RHu390c=
+sigs.k8s.io/prow v0.0.0-20250503221355-d852aabe5c8f h1:xBshypqIIU7/Rfn7MS1p2/aKoDxnHuciCtG8qlJL7NQ=
+sigs.k8s.io/prow v0.0.0-20250503221355-d852aabe5c8f/go.mod h1:5moIxLPiBeupL8JTWWYXS6WZzH0cS7mAQjloh6knMFw=
 sigs.k8s.io/randfill v0.0.0-20250304075658-069ef1bbf016/go.mod h1:XeLlZ/jmk4i1HRopwe7/aU3H5n1zNUcX6TM94b3QxOY=
 sigs.k8s.io/randfill v1.0.0 h1:JfjMILfT8A6RbawdsK2JXGBR5AQVfd+9TbzrlneTyrU=
 sigs.k8s.io/randfill v1.0.0/go.mod h1:XeLlZ/jmk4i1HRopwe7/aU3H5n1zNUcX6TM94b3QxOY=
