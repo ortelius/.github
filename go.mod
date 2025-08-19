@@ -8,7 +8,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/hmarr/codeowners v1.2.1
 	k8s.io/apimachinery v0.33.4
-	sigs.k8s.io/prow v0.0.0-20250808121943-b9a6d0edd4b3
+	sigs.k8s.io/prow v0.0.0-20250819081137-3d885f42c97b
 )
 
 require (
