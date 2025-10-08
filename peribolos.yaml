@@ -193,6 +193,10 @@ orgs:
         default_branch: main
         description: Ortelius Outreach
         has_projects: true
+      pkgmgt:
+        default_branch: main
+        description: Package Management
+        has_projects: true
       samples:
         default_branch: main
         description:
