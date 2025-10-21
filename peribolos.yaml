@@ -23,7 +23,6 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
-      - agardnerIT
       - ankurkumarz
       - ayesha-kr
       - BBimie
@@ -77,6 +76,10 @@ orgs:
         default_branch: main
         description: Ortelius Backstage Setup
         has_projects: true
+      badger:
+        default_branch: main
+        description: Ortelius Badge Generator
+        has_projects: true        
       cncf-distribution:
         default_branch: main
         description: The toolkit to pack, ship, store, and deliver content.
@@ -362,7 +365,6 @@ orgs:
         description: all members for now
         maintainers: []
         members:
-          - agardnerIT
           - ankurkumarz
           - ayesha-kr
           - BBimie
@@ -402,6 +404,7 @@ orgs:
           arango-poc: write
           azure-infra: write
           backstage: write
+          badger: write
           dev-env-setup: write
           keptn-config: write
           keptn-ortelius-service: write
