@@ -60,6 +60,7 @@ orgs:
     members_can_create_repositories: true
     name: Ortelius
     max_repo_removal_fraction: 1.0
+    max_team_removal_fraction: 1.0
     repos:
       ".github":
         default_branch: main
