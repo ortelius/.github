@@ -139,6 +139,15 @@ orgs:
         description: Ortelius Workflow Toolkit
         has_projects: true
     teams:
+      ci:
+        description: Continuous Integration
+        members:
+        privacy: closed
+        teams:
+          ci-maintainers:
+            description: Continuous Integration artifact and configuration maintainers
+            members:
+            privacy: closed
       Dev:
         description: all members for now
         maintainers: []
