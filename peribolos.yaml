@@ -139,6 +139,47 @@ orgs:
         description: Ortelius Workflow Toolkit
         has_projects: true
     teams:
+      ci:
+        description: Continuous Integration
+        members:
+        privacy: closed
+        teams:
+          ci-maintainers:
+            description: Continuous Integration artifact and configuration maintainers
+            members:
+            privacy: closed
+      client:
+        description: ClI and Libraries
+        maintainers:
+          - jpower432
+          - sabre1041
+        members:
+        privacy: closed
+        teams:
+          client-maintainers:
+            description: CLI and Library codebase maintainers
+            maintainers:
+              - jpower432
+              - sabre1041
+            members:
+            privacy: closed
+      docs:
+        description: Documentation
+        maintainers:
+          - jpower432
+          - usrbinkat
+        privacy: closed
+        teams:
+          docs-maintainers:
+            description: Organization documentation maintainers
+            maintainers:
+              - jpower432
+              - usrbinkat
+            privacy: closed
+            repos:
+              ".github": write
+              ortelius-docs: write
+              ortelius.io: write
       Dev:
         description: all members for now
         maintainers: []
