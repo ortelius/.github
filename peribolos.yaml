@@ -163,23 +163,6 @@ orgs:
               - sabre1041
             members:
             privacy: closed
-      docs:
-        description: Documentation
-        maintainers:
-          - jpower432
-          - usrbinkat
-        privacy: closed
-        teams:
-          docs-maintainers:
-            description: Organization documentation maintainers
-            maintainers:
-              - jpower432
-              - usrbinkat
-            privacy: closed
-            repos:
-              ".github": write
-              ortelius-docs: write
-              ortelius.io: write
       Dev:
         description: all members for now
         maintainers: []
