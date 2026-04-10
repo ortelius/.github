@@ -64,303 +64,79 @@ orgs:
         default_branch: main
         description: Ortelius
         has_projects: true
-      arango-poc:
+      arangodb:
         default_branch: main
-        description: Ortelius Argango POC
+        description: Ortelius ArangoDB
         has_projects: true
-      azure-infra:
+      deployment-gke:
         default_branch: main
-        description: Ortelius Terraform for Azure
+        description: Ortelius GKE Deployment
         has_projects: true
-      backstage:
+      frontend:
         default_branch: main
-        description: Ortelius Backstage Setup
+        description: Ortelius Frontend
         has_projects: true
-      badger:
-        default_branch: main
-        description: Ortelius Badge Generator
-        has_projects: true        
-      cncf-distribution:
-        default_branch: main
-        description: The toolkit to pack, ship, store, and deliver content.
-        has_projects: true
-      collection-spec:
-        default_branch: main
-        description: Emporous Collection Format
-        has_projects: true
-      community:
-        default_branch: main
-        description: Emporous Community
-        has_projects: true
-        homepage: https://emporous.io/community
-        private: false
-      dev-env-setup:
-        default_branch: main
-        description: Ortelius Dev Environment Resources
-        has_projects: true
-      distribution-spec:
-        default_branch: main
-        description: OCI Distribution Specification
-        has_projects: true
-      emporous-go:
-        default_branch: main
-        description: Emporous client libraries and CLI implementation
-        has_projects: true
-        homepage: https://emporous.io/
-      emporous.io:
-        default_branch: main
-        description: Emporous Website
-        has_projects: true
-      examples:
-        default_branch: main
-        description: Emporous example use-cases and demos
-        has_projects: true
-      keptn-config:
-        default_branch: main
-        description: Ortelius Keptn Setup
-        has_projects: true
-      keptn-ortelius-service:
-        default_branch: main
-        description: Ortelius Keptn Service
-        has_projects: true
-      la-sbom-ledger:
-        default_branch: main
-        description: Ortelius XRPL Grant
-        has_projects: true
-      ms-compitem-crud:
-        default_branch: main
-        description: Ortelius Component Details Microservice
-        has_projects: true
-      ms-dep-pkg-cud:
-        default_branch: main
-        description: Ortelius SBOM Create/Update/Delete Microservice
-        has_projects: true
-      ms-dep-pkg-r:
-        default_branch: main
-        description: Ortelius SBOM Read Microservice
-        has_projects: true
-      ms-postgres:
-        default_branch: main
-        description: Ortelius Postgres Microservice
-        has_projects: true
-      ms-scorecard:
-        default_branch: main
-        description: Ortelius Scorecard Microservice
-        has_projects: true
-      ms-textfile-crud:
-        default_branch: main
-        description: Ortelius Text File Microservice
-        has_projects: true
-      ms-validate-user:
-        default_branch: main
-        description: Ortelius Validate User Microservice
-        has_projects: true
-      organization:
-        default_branch: main
-        description: Organizational Maintenance
-        has_projects: true
-        private: true
       ortelius:
         default_branch: main
-        description: Ortelius Monolith UI/Backend
-        has_projects: true
-      ortelius-charts:
-        default_branch: main
-        description: Ortelius Parent Helm Charts
-        has_projects: true
-      ortelius-cli:
-        default_branch: main
-        description: Ortelius CLI for CI/CD Pipeline
+        description: The mission of the Ortelius community is to expose weak links in the software supply chain by continuously gathering and analyzing software supply chain intelligence.
         has_projects: true
       ortelius-docs:
         default_branch: main
-        description: Ortelius Documentation
-        has_projects: true
-      ortelius-kubernetes:
-        default_branch: main
-        description: Ortelius Kustomize/Argo Deployments
-        has_projects: true
-      ortelius-test-database:
-        default_branch: main
-        description: Ortelius Test Data
+        description: Documentation for Ortelius Open Source Project
         has_projects: true
       ortelius-toc:
         default_branch: main
-        description: Ortelius TOC Governance
+        description: Technology Oversight Committee
         has_projects: true
       ortelius.io:
         default_branch: main
-        description: Ortelius Website
+        description: The ortelius.io website based on hugo/docsy
         has_projects: true
-      outreach:
+      osvdev-job:
         default_branch: main
-        description: Ortelius Outreach
+        description: osv.dev to ArangoDB loader
+        has_projects: true
+      parent-charts:
+        default_branch: main
+        description: Ortelius Parent Helm Charts
+        has_projects: true
+      pdvd-aiops:
+        default_branch: main
+        description: Ortelius AIOps
+        has_projects: true
+      pdvd-releasetracker:
+        default_branch: main
+        description: Ortelius Release Tracker
         has_projects: true
       pkgmgt:
         default_branch: main
         description: Package Management
         has_projects: true
-      samples:
+      platform-iac:
         default_branch: main
-        description:
-          This repo contains reference implementations of sample content
-          to demonstrate Emporous core functionality
+        description: Ortelius Platform Infrastructure as Code
         has_projects: true
-      scec-appver:
+      rbac:
         default_branch: main
-        description: Ortelius Application Version Microservice
+        description: Ortelius RBAC
         has_projects: true
-      scec-commons:
+      relscanner-job:
         default_branch: main
-        description: Ortelius v11 Common Code
+        description: Ortelius Release Scanner Job
         has_projects: true
-      scec-comp-tag:
+      security-ai-bot:
         default_branch: main
-        description: Ortelius Component Tag Microservice
+        description: Ortelius Security AI Bot
         has_projects: true
-      scec-compver:
+      supplychain-watchtower:
         default_branch: main
-        description: Ortelius Component Version Microservice
+        description: Ortelius Supply Chain Watchtower
         has_projects: true
-      scec-deployment:
+      workflow-toolkit:
         default_branch: main
-        description: Ortelius Deployment Microservice
-        has_projects: true
-      scec-deppkg:
-        default_branch: main
-        description: Ortelius SBOM Microservice
-        has_projects: true
-      scec-domain:
-        default_branch: main
-        description: Ortelius Domain Microservice
-        has_projects: true
-      scec-environment:
-        default_branch: main
-        description: Ortelius Environment Microservice
-        has_projects: true
-      scec-frontend:
-        default_branch: main
-        description: Ortelius Frontend Microservice
-        has_projects: true
-      scec-group:
-        default_branch: main
-        description: Ortelius Group Microservice
-        has_projects: true
-      scec-mitre-mapping:
-        default_branch: main
-        description: Ortelius Mitre Attack Mapping Microservice
-        has_projects: true
-      scec-scorecard:
-        default_branch: main
-        description: Ortelius Scorecard Microservice
-        has_projects: true
-      scec-textfile:
-        default_branch: main
-        description: Ortelius Textfile Microservice
-        has_projects: true
-      scec-ui-design:
-        default_branch: main
-        description: Ortelius UI Design
-        has_projects: true
-      scec-user:
-        default_branch: main
-        description: Ortelius User Microservice
-        has_projects: true
-      scec-validate-provenance:
-        default_branch: main
-        description: Ortelius Validate Provenance Microservice
-        has_projects: true
-      scec-validate-signing:
-        default_branch: main
-        description: Ortelius Validate Signing Microservice
-        has_projects: true
-      scec-validate-user:
-        default_branch: main
-        description: Ortelius Validate User Microservice
-        has_projects: true
-      scec-vulnerability:
-        default_branch: main
-        description: Ortelius Vulnerability Microservice
-        has_projects: true
-      testing:
-        default_branch: main
-        description: Ortelius Front-end Test Suites
-        has_projects: true
-      universalreference.io-redirect:
-        default_branch: main
-        description: Temporary redirect from universalreference.io to emporous.io
+        description: Ortelius Workflow Toolkit
         has_projects: true
     teams:
-      ci:
-        description: Continuous Integration
-        members:
-        privacy: closed
-        teams:
-          ci-maintainers:
-            description: Continuous Integration artifact and configuration maintainers
-            members:
-            privacy: closed
-            repos:
-              samples: write
-      client:
-        description: ClI and Libraries
-        maintainers:
-          - jpower432
-          - sabre1041
-        members:
-        privacy: closed
-        teams:
-          client-maintainers:
-            description: CLI and Library codebase maintainers
-            maintainers:
-              - jpower432
-              - sabre1041
-            members:
-            privacy: closed
-            repos:
-              collection-spec: write
-              emporous-go: write
-      docs:
-        description: Documentation
-        maintainers:
-          - jpower432
-          - usrbinkat
-        privacy: closed
-        teams:
-          docs-maintainers:
-            description: Organization documentation maintainers
-            maintainers:
-              - jpower432
-              - usrbinkat
-            previously:
-              - emporous-docs
-            privacy: closed
-            repos:
-              ".github": write
-              community: write
-              emporous.io: write
-      event:
-        description: ""
-        maintainers: []
-        members: []
-        privacy: closed
-        repos: {}
-        teams:
-          event-maintainers:
-            description: ""
-            members: []
-            privacy: closed
-      examples:
-        description: Emporous use case examples and demos
-        members:
-        privacy: closed
-        teams:
-          examples-maintainers:
-            description: Examples and demo maintainers
-            members:
-            privacy: closed
-            repos:
-              examples: write
       Dev:
         description: all members for now
         maintainers: []
@@ -401,47 +177,21 @@ orgs:
           - zacharyljones
         privacy: closed
         repos:
-          arango-poc: write
-          azure-infra: write
-          backstage: write
-          badger: write
-          dev-env-setup: write
-          keptn-config: write
-          keptn-ortelius-service: write
-          la-sbom-ledger: write
-          ms-compitem-crud: write
-          ms-dep-pkg-cud: write
-          ms-dep-pkg-r: write
-          ms-postgres: write
-          ms-scorecard: write
-          ms-textfile-crud: write
-          ms-validate-user: write
-          ortelius-charts: write
-          ortelius-cli: write
-          ortelius-docs: write
-          ortelius-kubernetes: write
-          ortelius-test-database: write
-          ortelius-toc: write
+          arangodb: write
+          deployment-gke: write
+          frontend: write
           ortelius: write
+          ortelius-docs: write
+          ortelius-toc: write
           ortelius.io: write
-          outreach: write
-          scec-appver: write
-          scec-commons: write
-          scec-comp-tag: write
-          scec-compver: write
-          scec-deployment: write
-          scec-deppkg: write
-          scec-domain: write
-          scec-environment: write
-          scec-frontend: write
-          scec-group: write
-          scec-mitre-mapping: write
-          scec-scorecard: write
-          scec-textfile: write
-          scec-ui-design: write
-          scec-user: write
-          scec-usergroup: write
-          scec-validate-provenance: write
-          scec-validate-signing: write
-          scec-validate-user: write
-          scec-vulnerability: write
+          osvdev-job: write
+          parent-charts: write
+          pdvd-aiops: write
+          pdvd-releasetracker: write
+          pkgmgt: write
+          platform-iac: write
+          rbac: write
+          relscanner-job: write
+          security-ai-bot: write
+          supplychain-watchtower: write
+          workflow-toolkit: write
