@@ -1,8 +1,6 @@
 module github.com/ortelius/.github
 
-go 1.25.8
-
-toolchain go1.26.2
+go 1.26.2
 
 require (
 	github.com/ghodss/yaml v1.0.0
@@ -12,18 +10,16 @@ require (
 )
 
 require (
+	github.com/Masterminds/semver/v3 v3.4.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bombsimon/logrusr/v4 v4.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cjwagner/httpcache v0.0.0-20230907212505-d4841bbad466 // indirect
-	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/gomodule/redigo v1.9.2 // indirect
 	github.com/google/btree v1.1.3 // indirect
-	github.com/google/gofuzz v1.2.1-0.20210504230335-f78f29fc09ea // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
