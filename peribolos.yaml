@@ -2,16 +2,11 @@
 orgs:
   ortelius:
     admins:
-      - afflom
-      - Arvind644
-      - bradmccoydev
       - codeWithUtkarsh
-      - jpower432
-      - sabre1041
+      - sachajw
       - sbtaylor15
       - thelinuxfoundation
       - TracyRagan
-      - usrbinkat
     billing_email: steve@deployhub.com
     company: ""
     default_repository_permission: read
@@ -50,7 +45,6 @@ orgs:
       - raj-rox
       - rarean
       - Rubix982
-      - sachajw
       - sanjeepan23
       - saxenaaman628
       - scanalesespinoza
@@ -170,7 +164,6 @@ orgs:
           - raj-rox
           - rarean
           - Rubix982
-          - sachajw
           - sanjeepan23
           - saxenaaman628
           - scanalesespinoza
